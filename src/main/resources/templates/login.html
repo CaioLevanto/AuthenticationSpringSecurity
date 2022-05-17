@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <h1>LOGIN PAGE</h1>
+    <form action="/login" method="post">
+        <tr>
+            <td>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">Logon</button>
+                <button type="reset">Cancel</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="remember-me">Remember-me</label>
+                <input type="checkbox" name="remember-me" id="remember-me">
+            </td>
+        </tr>
+    </form>
+</body>
+</html>
